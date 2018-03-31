@@ -5,6 +5,13 @@ public class printer {
     String merek;
     Integer harga;
     Integer jumlah_item;
+
+    //constructor sama dengan class
+    public printer() {
+        merek="Epson L605.";
+        harga=2500000;
+        jumlah_item=1;
+    }
     
     //behavior
     void beli() {
@@ -14,12 +21,14 @@ public class printer {
         System.out.println("|===============================|");
     }
     
+    //method dengan nilai balik
     Integer bayar() {
         Integer total;
         total=harga*jumlah_item;
         return total;
     }
     
+    //method tanpa nilai balik
     void bayarPrinter(){
         System.out.println(" method tanpa nilai balik");
         System.out.println("|===============================|");
