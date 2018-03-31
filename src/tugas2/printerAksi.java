@@ -8,19 +8,29 @@ public class printerAksi {
         p1.harga=2500000;
         p1.jumlah_item=1;
         p1.beli();
+        //method nilai dengan balik
+        System.out.println("|Total         : Rp "+p1.bayar()+"     |");
+        System.out.println("|===============================|"+"\n");
         
         printer p2 = new printer();
         System.out.println("|=======Pembelian Printer=======|");
         p2.merek="Epson L310.";
         p2.harga=1500000;
-        p2.jumlah_item=1;
+        p2.jumlah_item=2;
         p2.beli();
+        //method nilai dengan balik
+        System.out.println("|Total         : Rp "+p2.bayar()+"     |");
+        System.out.println("|===============================|"+"\n");
         
         printer p3 = new printer();
         System.out.println("|=======Pembelian Printer=======|");
         p3.merek="Epson L600.";
         p3.harga=6000000;
-        p3.jumlah_item=1;
+        p3.jumlah_item=2;
         p3.beli();
+        //method nilai dengan balik
+        System.out.println("|Total         : Rp "+p3.bayar()+"    |");
+        System.out.println("|===============================|"+"\n");
+        
     }
 }

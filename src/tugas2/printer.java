@@ -8,10 +8,16 @@ public class printer {
     
     //behavior
     void beli() {
-        System.out.println(" Merek Printer : "+merek);
-        System.out.println(" Harga Printer : "+harga);
-        System.out.println(" Harga Printer : "+jumlah_item);
-        System.out.println("|===============================|"+"\n");
+        System.out.println("|Merek Printer : "+merek+"    |");
+        System.out.println("|Harga Printer : Rp "+harga+"     |");
+        System.out.println("|Jumlah Item   : "+jumlah_item+"              |");
+        System.out.println("|===============================|");
+    }
+    
+    Integer bayar() {
+        Integer total;
+        total=harga*jumlah_item;
+        return total;
     }
     
 }
