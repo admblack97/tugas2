@@ -20,4 +20,11 @@ public class printer {
         return total;
     }
     
+    void bayarPrinter(){
+        System.out.println(" method tanpa nilai balik");
+        System.out.println("|===============================|");
+        System.out.println("|Total         : Rp "+bayar()+"     |");
+        System.out.println("|===============================|"+"\n");
+    }
+    
 }

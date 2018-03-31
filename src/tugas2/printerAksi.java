@@ -8,9 +8,12 @@ public class printerAksi {
         p1.harga=2500000;
         p1.jumlah_item=1;
         p1.beli();
-        //method nilai dengan balik
+        //method dengan nilai balik
         System.out.println("|Total         : Rp "+p1.bayar()+"     |");
         System.out.println("|===============================|"+"\n");
+        //method tanpa nilai balik
+        p1.bayarPrinter();
+        
         
         printer p2 = new printer();
         System.out.println("|=======Pembelian Printer=======|");
@@ -18,9 +21,11 @@ public class printerAksi {
         p2.harga=1500000;
         p2.jumlah_item=2;
         p2.beli();
-        //method nilai dengan balik
+        //method dengan nilai balik
         System.out.println("|Total         : Rp "+p2.bayar()+"     |");
         System.out.println("|===============================|"+"\n");
+        //method tanpa nilai balik
+        p2.bayarPrinter();
         
         printer p3 = new printer();
         System.out.println("|=======Pembelian Printer=======|");
@@ -28,9 +33,10 @@ public class printerAksi {
         p3.harga=6000000;
         p3.jumlah_item=2;
         p3.beli();
-        //method nilai dengan balik
+        //method dengan nilai balik
         System.out.println("|Total         : Rp "+p3.bayar()+"    |");
         System.out.println("|===============================|"+"\n");
-        
+        //method tanpa nilai balik
+        p3.bayarPrinter();
     }
 }
