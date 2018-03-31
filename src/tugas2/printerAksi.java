@@ -38,5 +38,11 @@ public class printerAksi {
         System.out.println("|===============================|"+"\n");
         //method tanpa nilai balik
         p3.bayarPrinter();
+        
+        //constructor sama dengan class
+        printer p4 = new printer();
+        System.out.println(" constructor sama dengan class");
+        System.out.println("|=======Pembelian Printer=======|");
+        p4.beli();
     }
 }
