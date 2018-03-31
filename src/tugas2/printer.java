@@ -12,6 +12,13 @@ public class printer {
         harga=2500000;
         jumlah_item=1;
     }
+
+    //constructor dengan parameter
+    public printer(String merek, Integer harga, Integer jumlah_item) {
+        this.merek = merek;
+        this.harga = harga;
+        this.jumlah_item = jumlah_item;
+    }
     
     //behavior
     void beli() {

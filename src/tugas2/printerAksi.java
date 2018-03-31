@@ -44,5 +44,17 @@ public class printerAksi {
         System.out.println(" constructor sama dengan class");
         System.out.println("|=======Pembelian Printer=======|");
         p4.beli();
+        //method dengan nilai balik
+        System.out.println("|Total         : Rp "+p4.bayar()+"     |");
+        System.out.println("|===============================|"+"\n");
+        
+        //constructor dengan parameter
+        printer p5 = new printer("Epson L600.",6000000,3);
+        System.out.println(" constructor dengan parameter");
+        System.out.println("|=======Pembelian Printer=======|");
+        p5.beli();
+        //method dengan nilai balik
+        System.out.println("|Total         : Rp "+p5.bayar()+"    |");
+        System.out.println("|===============================|"+"\n");
     }
 }
