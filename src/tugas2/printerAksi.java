@@ -10,7 +10,19 @@ public class printerAksi {
         p1.merek="Epson L605.";
         p1.harga=2500000;
         p1.jumlah_item=1;
-        System.out.println("|===============================|");
+        System.out.println("|===============================|"+"\n");
+        
+        System.out.println("|=======Pembelian Printer=======|");
+        p2.merek="Epson L310.";
+        p2.harga=1500000;
+        p2.jumlah_item=1;
+        System.out.println("|===============================|"+"\n");
+        
+        System.out.println("|=======Pembelian Printer=======|");
+        p3.merek="Epson L600.";
+        p3.harga=6000000;
+        p3.jumlah_item=1;
+        System.out.println("|===============================|"+"\n");
      
     }
 }
